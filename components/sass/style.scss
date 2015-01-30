@@ -1,7 +1,11 @@
 /* Scss Document */
 $primary: #ccc;
+$secondary: #666;
 
 body{
 	background: $primary;
+}
+.test {
+	background: $secondary;
 }
 
