@@ -1,11 +1,41 @@
 /* Scss Document */
-$primary: #ccc;
-$secondary: #999;
+
+@import "compass/css3";
+@import "variables";
+@import "mixins";
+
 
 body{
-	background: $primary;
+
 }
-.test {
-	background: $secondary;
+/*social icons*/
+.social-icons {
+	text-align: center;	
 }
 
+.social-icons .fa {
+	font-size: 2em;
+}
+.social-icons .fa {
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	background: red;
+	color: white;
+	&:hover {
+	background: gray;
+	}
+}
+.social-icons  .nav
+li {
+	display: inline-block;
+	margin: 0px 5px;
+a {
+	padding: 0px;
+&:hover  {
+	background: transparent;
+}
+}
+}

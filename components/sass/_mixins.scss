@@ -1,0 +1,54 @@
+/* Scss Document */
+
+
+@mixin light-color-gray {
+color: lighten($color-black, 80% );
+}
+@mixin dark-color-gray {
+color: lighten($color-black, 20% );
+}
+@mixin mid-color-gray {
+color: lighten($color-black, 50% );
+}
+@mixin light-color-gray-bg {
+background: lighten($color-black, 80% );
+}
+@mixin dark-color-gray-bg {
+background: lighten($color-black, 20% );
+}
+@mixin mid-color-gray-bg {
+background: lighten($color-black, 50% );
+}
+
+@mixin light-color-primary {
+color: lighten($color-primary, 10% );
+}
+@mixin dark-color-primary {
+color: darken($color-primary, 10% );
+}
+
+@mixin light-color-primary-bg {
+background:  lighten($color-primary, 10% );
+}
+@mixin dark-color-primary-bg {
+background:  darken($color-primary, 10% );
+}
+
+@mixin light-color-secondary {
+color: lighten($color-secondary, 10% );
+}
+@mixin dark-color-secondary {
+color: darken($color-secondary, 10% );
+}
+@mixin light-color-secondary-bg {
+background: lighten($color-secondary, 10% );
+}
+@mixin dark-color-secondary-bg {
+background: darken($color-secondary, 10% );
+}
+
+@mixin paddingMarginZero {
+	padding:0px;
+	margin:0px;
+}
+
