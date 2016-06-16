@@ -6,11 +6,17 @@
 
 
 body{
-
+	text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
+/*-------------------------------------------
+general
+-------------------------------------------*/
+
 /*social icons*/
 .social-icons {
-	text-align: center;	
+	text-align: center;
 }
 
 .social-icons .fa {
